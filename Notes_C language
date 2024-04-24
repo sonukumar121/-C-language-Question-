@@ -1,0 +1,104 @@
+syntax of c
+#include<stdio.h>
+#-->pre processor directive. and .h-->headerfile and stdio-->standard input $ output.
+we need to linked headerfile with pp.
+void main()
+main-->ek thara ka function hai.
+void-->isme koi bhi value return nhi karega.
+printf("  ");-->for output.[both are predefined function]
+scanf(" ");-->for input.
+
+1) PRE-PROCESSOR DIRECTIVE==>are lines included in a program that begin with characters # which makes them different from a typical source content.
+
+2) COMPILER==> it scans the entire program first translate into machine code.
+            compiler show all errors and warning at same time.
+            debugging is slow.
+
+3) INTERPRETER==> it scans the programs line by line and translate it into machine code.
+               interpreter show one erroe at a time 
+               debugging is slow
+
+4) DATATYPES==>   1) PRIMARY                                   2) SECONDARY
+                  *int-->(2 byte depend on compiler.)            *array
+                  *char-->(1 byte)                               *pointer
+                  *float-->(4 byte)                              *structure
+                  *double float(8 byte)                          *union
+                  *void(0 byte)
+
+5) Clrscr()==>  REMOVE OLD OUTPUT FROM YOUR SCREEN.
+             *int (%d)
+             *float(%f)
+
+6) VARIABLE==>  LOCAL VARIABLE-->local variable ko hum jitna bar use karenge uska utna bar new memory create hota hai.
+
+             GLOBAL VARIABLE-->we can use any places for writing programme or in c langauge 
+                               int a; // global
+                               void main()
+                               {}
+
+             STATIC VARIABLE==>iska ek hi memeory banta hai jiska ki bar bar use kiya jata hai for ex-->printf() / or scanf().
+
+getch()==>holds the screen.
+
+7) IDENTIFIER==> identifiers refers to the name of  which is variable function and so on..
+              for ex-->int a // a is identifiers 
+8) PROGRAMME==> A program is a set of instruction that a computer follows in order to perform task.
+
+9) OPERATORS==>operators is a symbols that tells the compiler to perform mathematical and logical task.
+
+       *TYPES OF OPERATORS-->1) ARITHMETIC OPERATORS= +,-*/
+                       2) RELATIONAL OPERATORS= we use for compare values >,< >=..
+                       3) LOGICAL OPERATORS= &&,!,||.
+                       4) INCREMENT/D ECREMENT=++,-- || 5)PRE-INCREMENT OR POST INCREMENT=++a,--a OR a++,a--.
+                       5) TERNERY OPERATOR= (?,:)
+                       6) ASSIGNMEN OPERATOR= (=)
+* \n -->use only for print in next line.
+
+10) CONDITIONAL  STATEMENTS:-
+    *if statement
+    *if else statement 
+    *if else if statement 
+    *Nested if statement 
+    *switch statements
+
+11) SWITCH STATEMENTS==>switch statements used when we want to select any one case out of multiple cases.
+      *SYNTAX==> switch(exp)
+                {
+                  Case1: statement;
+                         break;
+                  case2: statements;
+                         break;
+12) Loops==> loop is used to express to repaeat a block of code until the given condition is true.
+       *TYPES--> 1) WHILE LOOPS ==>phle condition check karega phr statement execute karta.-->isme pta hi hota kha tak jana hai.
+                  2)DO-WHILE LOOPS==>phle statement execute karta phr cinditions check karta.
+                  3)FOR LOOPS==>repeat block of code -->isme limit pata rhta hai kha tak jana hai.
+
+13)ARRAY==> array is a collection of similar types of data items in a contigenous memory allocation.
+       * []-->sub script operators .
+
+14)STRINGS==>strings is a sequence collectio of characters and it always ends with null ('\0').
+
+1)STREN()-->length of strings 
+2)STRCPY()-->copy
+3)STRCAT()-->merge
+4)STRCMP()-->compare
+5)STRLWR()-->lower case
+6)STRUPR()-->upper case
+
+*STRINGS (input/output)
+gets()-->for input
+puts()-->for output
+ 
+POINTER-->pointer is a variable that can able to hold adress of another variable.
+
+
+    
+
+
+  
+
+
+                       
+
+
+ 
